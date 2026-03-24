@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: im-backend
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/im_db?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+  
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: 
+      database: 0
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: im-secret-key-2026-very-long-secret-key-for-jwt-signing
+    expiration: 86400000  # 24 hours in milliseconds
+    refresh-expiration: 604800000  # 7 days in milliseconds
+
+logging:
+  level:
+    com.im.backend: DEBUG
+    org.springframework.web.socket: DEBUG
