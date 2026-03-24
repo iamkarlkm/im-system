@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-03-24T23:01:05.201673",
+  "timestamp": "2026-03-24T23:55:13.638718",
   "root_path": "C:\\Users\\Administrator\\.openclaw\\workspace-clawd3",
   "summary": {
     "total_directories": 167,
     "total_files": 1392,
     "total_code_files": 1355,
-    "total_code_lines": 282838
+    "total_code_lines": 283041
   },
   "file_types": {
     ".java": 755,
@@ -27,13 +27,13 @@
     },
     "Markdown": {
       "files": 88,
-      "lines": 22569,
-      "avg_lines": 256.46590909090907
+      "lines": 22687,
+      "avg_lines": 257.8068181818182
     },
     "JSON": {
       "files": 10,
-      "lines": 11138,
-      "avg_lines": 1113.8
+      "lines": 11223,
+      "avg_lines": 1122.3
     },
     "PowerShell": {
       "files": 41,
